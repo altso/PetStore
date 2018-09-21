@@ -3,7 +3,7 @@
   "defaultVariables": null,
   "swaggerGenerator": {
     "fromSwagger": {
-      "url": "swagger.json",
+      "url": "swagger.yaml",
       "output": null
     }
   },
