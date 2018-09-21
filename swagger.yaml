@@ -85,6 +85,10 @@ definitions:
         type: string
       tag:
         type: string
+      amount:
+        type: number
+        minimum: 1000
+        exclusiveMinimum: true
   Pets:
     type: array
     items:
