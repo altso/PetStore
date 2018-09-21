@@ -1,0 +1,62 @@
+﻿{
+  "runtime": "Default",
+  "defaultVariables": null,
+  "swaggerGenerator": {
+    "fromSwagger": {
+      "url": "swagger.json",
+      "output": null
+    }
+  },
+  "codeGenerators": {
+    "swaggerToCSharpController": {
+      "controllerBaseClass": "Microsoft.AspNetCore.Mvc.ControllerBase",
+      "controllerStyle": "Abstract",
+      "useCancellationToken": true,
+      "aspNetNamespace": "Microsoft.AspNetCore.Mvc",
+      "routeNamingStrategy": "None",
+      "className": "PetStore{controller}",
+      "operationGenerationMode": "MultipleClientsFromOperationId",
+      "additionalNamespaceUsages": [],
+      "additionalContractNamespaceUsages": [],
+      "generateOptionalParameters": false,
+      "generateJsonMethods": true,
+      "enforceFlagEnums": false,
+      "parameterArrayType": "System.Collections.Generic.IEnumerable",
+      "parameterDictionaryType": "System.Collections.Generic.IDictionary",
+      "responseArrayType": "System.Collections.ObjectModel.ObservableCollection",
+      "responseDictionaryType": "System.Collections.Generic.Dictionary",
+      "wrapResponses": false,
+      "wrapResponseMethods": [],
+      "generateResponseClasses": true,
+      "responseClass": "SwaggerResponse",
+      "namespace": "PetStore",
+      "requiredPropertiesMustBeDefined": true,
+      "dateType": "System.DateTime",
+      "jsonConverters": null,
+      "dateTimeType": "System.DateTime",
+      "timeType": "System.TimeSpan",
+      "timeSpanType": "System.TimeSpan",
+      "arrayType": "System.Collections.Generic.List",
+      "arrayInstanceType": null,
+      "dictionaryType": "System.Collections.Generic.Dictionary",
+      "dictionaryInstanceType": null,
+      "arrayBaseType": "System.Collections.ObjectModel.ObservableCollection",
+      "dictionaryBaseType": "System.Collections.Generic.Dictionary",
+      "classStyle": "Inpc",
+      "generateDefaultValues": true,
+      "generateDataAnnotations": true,
+      "excludedTypeNames": [],
+      "handleReferences": false,
+      "generateImmutableArrayProperties": false,
+      "generateImmutableDictionaryProperties": false,
+      "jsonSerializerSettingsTransformationMethod": null,
+      "templateDirectory": null,
+      "typeNameGeneratorType": null,
+      "propertyNameGeneratorType": null,
+      "enumNameGeneratorType": null,
+      "serviceHost": null,
+      "serviceSchemes": null,
+      "output": "PetStore.Generated.cs"
+    }
+  }
+}
